@@ -23,3 +23,35 @@ def hitung_gaji():
 def hitung_luas():
     print("\n=== PERHITUNGAN LUAS BANGUN DATAR ===")
     print("1. Persegi")
+    print("2. Segitiga")
+    print("3. Lingkaran")
+
+    pilih = input("Pilih bangun(1/2/3): ")
+
+    if pilih == "1":
+        sisi = float(input("Sisi: "))
+        luas = sisi * sisi
+        print("Luas Persegi =", luas)
+
+    elif pilih == "2":
+        alas = float(input("Alas : "))
+        tinggi = float(input("Tinggi : "))
+        luas = 0.5 * alas * tinggi
+        print("Luas Segitiga =", luas)
+
+    elif pilih == "3":
+        r = float(input("Jari-jari: "))
+        luas = math.pi * r * r
+        print("Luas Lingkaran =", round(luas, 2))
+
+    else:
+        print("Pilihan tidak valid")
+
+while True:
+    print("\n=== APLIKASI PERHITUNGAN SERBAGUNA ===")
+    print("1. Hitung Nilai Akhir")
+    print("2. Hitung Gaji Karyawan")
+    print("3. Hitung Luas Bangun Datar")
+    print("4. Keluar")
+
+    pilih = input("Pilih menu (1/2/3/4): ")
