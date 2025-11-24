@@ -25,6 +25,7 @@ def hitung_luas():
     print("1. Persegi")
     print("2. Segitiga")
     print("3. Lingkaran")
+    print("4. Keluar")
 
     pilih = input("Pilih bangun(1/2/3): ")
 
@@ -54,4 +55,14 @@ while True:
     print("3. Hitung Luas Bangun Datar")
     print("4. Keluar")
 
-    pilih = input("Pilih menu (1/2/3/4): ")
+    menu = input("Pilih menu (1/2/3/4): ")
+
+    if menu == "1":
+        hitung_nilai()
+    elif menu == "2":
+        hitung_gaji()
+    elif menu == "3":
+        hitung_luas()
+    elif menu == "4":
+        print("Terima kasih telah menggunakan aplikasi!")
+        break
