@@ -65,3 +65,5 @@ while True:
     elif menu == "4":
         print("Terima kasih telah menggunakan aplikasi!")
         break
+    else:
+        print("Pilihan tidak valid!")
