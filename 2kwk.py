@@ -25,7 +25,6 @@ def hitung_luas():
     print("1. Persegi")
     print("2. Segitiga")
     print("3. Lingkaran")
-    print("4. Keluar")
 
     pilih = input("Pilih bangun(1/2/3): ")
 
